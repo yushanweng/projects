@@ -1,1 +1,1 @@
-# github_projects
+# githubprojects
