@@ -1078,7 +1078,7 @@ void main(void)
 			//rim();
 		//sss	
 ADC_CR2=0x38;//右對齊
-ADC_CSR=0x04;// IN1 PD3 //去datasheet表格找有寫analog input的接腳選擇一個當
+ADC_CSR=0x04;// IN1 PD3 //去datasheet表格找有寫analog input的接腳選擇一個當input 
 
 while(1)
 { 
