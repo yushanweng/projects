@@ -1079,7 +1079,7 @@ void main(void)
 		//sss	
 ADC_CR2=0x38;//右對齊
 ADC_CSR=0x04;// IN1 PD3 //去datasheet表格找有寫analog input的接腳選擇一個當input 
-
+/*可變電阻的接法:面對旋鈕，右邊接電路板右側有3.3V的孔，在背面焊上線。中間接腳鎖上IN1,左邊接腳鎖上GND*/
 while(1)
 { 
   ADC_CR1=0x01;
