@@ -1,0 +1,104 @@
+while(1)   //防彈跳 方法一:時間timer
+ {
+		 IN1;
+		 if(flag10==0){ 
+			 for (flag29 = 0; flag29 < 3; flag29++)
+			 {   // small for loop outer
+				 for (flag30 = 0; flag30 < 50000; flag30++);
+			 };
+      //50000 is the for loop limit (not sure)
+		 IN1;
+		 flag12=1;
+		 flag13=0;
+		 flag14=0;
+		 flag15=0;
+		 //for (flag12 = 1; flag12 < 40000; flag12++);  
+	   }
+	   
+		 
+		 IN2;
+		 if(flag10==0){
+			 for (flag29 = 0; flag29 < 3; flag29++)
+			 {   // small for loop outer
+				 for (flag30 = 0; flag30 < 50000; flag30++);
+			 };
+		 IN2;
+		 flag12=0;
+		 flag13=1;
+		 flag14=0;
+		 flag15=0;
+		 //for (flag13 = 1; flag13 < 40000; flag13++);  
+	   }
+		 
+		
+		 IN3;
+		 if(flag10==0){
+			for (flag29 = 0; flag29 < 3; flag29++)
+			 {   // small for loop outer
+				 for (flag30 = 0; flag30 < 50000; flag30++);
+			 };
+		 IN3;
+		 flag12=0;
+		 flag13=0;
+		 flag14=1;
+		 flag15=0;
+		 //for (flag14 = 1; flag14 < 40000; flag14++);  
+	   }
+		 
+		
+		 IN4;
+		 if(flag10==0){
+			for (flag29 = 0; flag29 < 3; flag29++)
+			 {   // small for loop outer
+				 for (flag30 = 0; flag30 < 50000; flag30++);
+			 };
+		  IN4;
+		 flag12=0;
+		 flag13=0;
+		 flag14=0;
+		 flag15=1;
+		 //for (flag15 = 1; flag15 < 40000; flag15++); 
+	   }
+		
+	
+		{
+		if(flag12==1){
+			OUT1_ON;
+			OUT2_ON;
+			OUT3_ON;
+			OUT4_ON;
+		}
+		
+		
+		if(flag13==1){
+			OUT1_OFF;
+			OUT2_OFF;
+			OUT3_OFF;
+			OUT4_OFF;
+		}
+		
+		
+		if(flag14==1){
+			OUT1_ON;
+			OUT2_ON;
+			OUT3_OFF;
+			OUT4_OFF;
+		}
+		
+	
+		if(flag15==1){
+			OUT1_OFF;
+			OUT2_OFF;
+			OUT3_ON;
+			OUT4_ON;
+		}
+		
+	}
+}		 
+	
+}		
+
+ 
+	
+
+
